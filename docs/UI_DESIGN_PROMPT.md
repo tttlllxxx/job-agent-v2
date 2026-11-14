@@ -1,6 +1,6 @@
 # 个人求职 Agent 界面设计说明
 
-日期为 2026-11-12。本文与[交互设计](DESIGN.md)、[技术设计](TECHNICAL_PLAN.md)组成完整重构方案，需求来源为 [REQUIREMENTS.md](REQUIREMENTS.md)。界面已按确认的 Demo 风格重写，当前验证范围见[重构实施状态](REBUILD_STATUS.md)。本文供界面实现使用，原设计方案已由本组文档替换。
+日期为 2026-11-12。本文定义界面的视觉规范与页面布局，与[交互设计](DESIGN.md)、[技术设计](TECHNICAL_PLAN.md)配合使用，需求来源为 [REQUIREMENTS.md](REQUIREMENTS.md)。
 
 ## 1. 产品与页面任务
 

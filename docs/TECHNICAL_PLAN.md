@@ -1,6 +1,6 @@
-# 个人求职 Agent 重构技术设计
+# 个人求职 Agent 技术设计
 
-日期为 2026-11-12。当前实现与验证范围见[重构实施状态](REBUILD_STATUS.md)。需求基线为 [REQUIREMENTS.md](REQUIREMENTS.md)，交互契约见[交互设计](DESIGN.md)。本文中的实体、接口及目录代表重构方案。现有代码用于确认数据迁移对象与可复用能力，实施前按调用链逐项核对。
+日期为 2026-11-12。本文描述系统架构、数据模型与接口约定。需求基线为 [REQUIREMENTS.md](REQUIREMENTS.md)，交互契约见[交互设计](DESIGN.md)。
 
 ## 1. 架构决策与交付范围
 

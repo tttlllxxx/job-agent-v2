@@ -1,6 +1,6 @@
 # 个人求职 Agent 交互设计
 
-日期为 2026-11-12。当前实现与验证范围见[重构实施状态](REBUILD_STATUS.md)，真实使用效果待用户验证。本文依据 [需求分析](REQUIREMENTS.md)重新设计完整产品，覆盖 F1–F7。技术契约见[技术设计](TECHNICAL_PLAN.md)，视觉执行规范见[界面设计说明](UI_DESIGN_PROMPT.md)。
+日期为 2026-11-12。本文依据 [需求分析](REQUIREMENTS.md)描述产品交互，覆盖 F1–F7。技术契约见[技术设计](TECHNICAL_PLAN.md)，视觉执行规范见[界面设计说明](UI_DESIGN_PROMPT.md)。真实使用效果待用户验证。
 
 ## 1. 设计目标与采用的假设
 
