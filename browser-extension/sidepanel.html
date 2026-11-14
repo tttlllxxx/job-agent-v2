@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>职序 · 辅助填写</title>
+    <link rel="stylesheet" href="sidepanel.css" />
+  </head>
+  <body>
+    <header>
+      <h1>职序 · 辅助填写</h1>
+      <p>当前页预览、确认填写与跨页继续</p>
+    </header>
+    <main>
+      <label
+        >关联申请<select id="application">
+          <option value="">正在读取申请…</option>
+        </select></label
+      >
+      <div class="actions">
+        <button id="scan">扫描当前页面 / 下一页</button
+        ><button id="pause" class="secondary">暂存</button>
+      </div>
+      <p id="status" role="status"></p>
+      <div id="fields"></div>
+      <button id="fill" disabled>确认填写所选字段</button>
+      <section>
+        <h2>官网提交结果</h2>
+        <p>文件上传和最终提交由你在官网完成，填写完成后仍需核对。</p>
+        <label
+          >实际使用的简历<select id="resume">
+            <option value="">自行准备的材料</option>
+          </select></label
+        ><label
+          >实际材料文件名与版本<input
+            id="material"
+            placeholder="例如 产品简历-v2.pdf" /></label
+        ><label>实际投递日期<input id="date" type="date" /></label
+        ><button class="secondary" id="submitted">我已在官网提交成功</button>
+      </section>
+      <a
+        href="http://127.0.0.1:8000/applications"
+        target="_blank"
+        rel="noreferrer"
+        >打开完整申请台账 →</a
+      >
+    </main>
+    <script src="sidepanel.js"></script>
+  </body>
+</html>

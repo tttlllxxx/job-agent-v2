@@ -1,0 +1,3 @@
+{"text":"虚构科技 Agent 工程师笔试安排在2026-09-12 19:00","applications":[{"id":1,"company":"虚构科技","position":"Agent 工程师"}],"expected_stage":"笔试","expected_application_id":1,"expected_auto_write":true}
+{"text":"很遗憾，虚构科技 Agent 工程师本次申请未通过","applications":[{"id":1,"company":"虚构科技","position":"Agent 工程师"}],"expected_stage":"未通过","expected_application_id":1,"expected_auto_write":false}
+{"text":"某公司面试邀请","applications":[{"id":1,"company":"虚构科技","position":"Agent 工程师"}],"expected_stage":"一面","expected_application_id":null,"expected_auto_write":false}

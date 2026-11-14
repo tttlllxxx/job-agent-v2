@@ -1,0 +1,5 @@
+task,elapsed_seconds,manual_seconds,filled_fields,revised_fields,recovered
+first_recommendation,,,,,
+known_form,,,,,
+unknown_required,,,,,
+resume_after_restart,,,,,

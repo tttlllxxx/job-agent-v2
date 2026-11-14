@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "职序 · 辅助填写",
+  "version": "2.0.0",
+  "description": "扫描当前申请页面，预览后填写已确认资料，支持人工接管和跨页继续。",
+  "permissions": ["activeTab", "scripting", "sidePanel", "storage"],
+  "host_permissions": ["http://127.0.0.1:8000/*", "http://localhost:8000/*"],
+  "action": { "default_title": "打开职序填写侧栏" },
+  "background": { "service_worker": "service-worker.js" },
+  "side_panel": { "default_path": "sidepanel.html" }
+}
